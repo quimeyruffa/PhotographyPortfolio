@@ -13,12 +13,12 @@ const App = () => {
         <Header />
         <AnimRoutes />
       </Router>
-      <motion.div
+      {/* <motion.div
         variants={cursorVariants}
         animate={cursorBG}
         className="w-[32px] h-[32px] bg-primary fixed top-0 left-0
        pointer-events-none z-50 rounded-full"
-      ></motion.div>
+      ></motion.div> */}
     </>
   );
 };
