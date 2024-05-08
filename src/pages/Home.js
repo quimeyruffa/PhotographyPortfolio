@@ -21,6 +21,7 @@ const Home = () => {
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, y: "-50%" }}
+            // @ts-ignore
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-50%" }}
             transition={transition1}
@@ -41,6 +42,7 @@ const Home = () => {
           <div className="flex justify-end max-h-96 lg:max-h-max">
             <motion.div
               initial={{ scale: 0 }}
+               // @ts-ignore
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
